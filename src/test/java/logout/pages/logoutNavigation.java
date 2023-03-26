@@ -5,23 +5,23 @@ import org.openqa.selenium.support.FindBy;
 
 public class logoutNavigation {
 
-    @FindBy()
+    @FindBy(xpath = "//a[@class='dropdown-toggle']")
     public WebElement myAccount;
 
-    @FindBy()
+    @FindBy(xpath = "//a[text()='Login']")
     public WebElement loginButtonHomePage;
 
-    @FindBy()
+    @FindBy(id = "input-email")
     public WebElement returningCustomerEmailAddress;
 
-    @FindBy()
+    @FindBy(id = "input-password")
     public WebElement returningCustomerPassword;
 
-    @FindBy()
+    @FindBy(xpath = "//input[@type='submit']")
     public WebElement returningCustomerLoginButton;
 
-    @FindBy()
-    public WebElement
+    @FindBy(xpath = "//a[text()='Logout']")
+    public WebElement logoutMyAccount;
 
     @FindBy()
     public WebElement
