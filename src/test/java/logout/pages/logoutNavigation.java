@@ -1,10 +1,9 @@
 package logout.pages;
 
-import ZUtility.DriverMethods;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class logoutNavigation extends DriverMethods {
+public class logoutNavigation {
 
     @FindBy(xpath = "//a[@class='dropdown-toggle']")
     public WebElement myAccount;

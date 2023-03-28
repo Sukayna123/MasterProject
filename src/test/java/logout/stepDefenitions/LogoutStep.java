@@ -22,15 +22,15 @@ getDriver().manage().window().maximize();
     }
 
 
-    @When("User is logged in")
-    public void userIsLoggedIn() {
-lg.clickMethod(lg.myAccount);
-lg.clickMethod(lg.loginButtonHomePage);
-lg.sendKeyMethod(lg.returningCustomerEmailAddress,"loveizzy@gmail.com");
-lg.sendKeyMethod(lg.returningCustomerPassword,"123456");
-lg.clickMethod(lg.loginButtonHomePage);
-
-    }
+//    @When("User is logged in")
+//    public void userIsLoggedIn() {
+//lg.clickMethod(lg.myAccount);
+//lg.clickMethod(lg.loginButtonHomePage);
+//lg.sendKeyMethod(lg.returningCustomerEmailAddress,"loveizzy@gmail.com");
+//lg.sendKeyMethod(lg.returningCustomerPassword,"123456");
+//lg.clickMethod(lg.loginButtonHomePage);
+//
+//    }
 
 //    @And("Click on My Account")
 //    public void clickOnMyAccount() {
