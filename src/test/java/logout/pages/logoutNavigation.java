@@ -1,9 +1,10 @@
 package logout.pages;
 
+import ZUtility.DriverMethods;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class logoutNavigation {
+public class logoutNavigation extends DriverMethods {
 
     @FindBy(xpath = "//a[@class='dropdown-toggle']")
     public WebElement myAccount;
@@ -23,78 +24,78 @@ public class logoutNavigation {
     @FindBy(xpath = "//a[text()='Logout']")
     public WebElement logoutMyAccount;
 
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
-
-
-    @FindBy()
-    public WebElement
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
+//
+//
+//    @FindBy()
+//    public WebElement
 }
 
 
